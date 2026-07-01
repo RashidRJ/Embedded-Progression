@@ -1,0 +1,30 @@
+00:54:30 **** Build of configuration Debug for project empty ****
+make all 
+Building file: ../workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.d" -MT"workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o" -o "workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o" "../workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c"
+Finished building: ../workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c
+ 
+Building file: ../workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT"workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o "workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building target: empty
+Invoking: Cross GCC Linker
+gcc  -o "empty" ./workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o  ./workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:44: empty] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:54:42 **** Incremental Build of configuration Debug for project empty ****
+make all 
+Building target: empty
+Invoking: Cross GCC Linker
+gcc  -o "empty" ./workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o  ./workspace_2.1.1/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:44: empty] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

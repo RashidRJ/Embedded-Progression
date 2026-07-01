@@ -1,0 +1,36 @@
+!SESSION 2026-05-30 03:09:01.260 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/sullen/Embedded-Progression
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-05-30 03:09:04.899
+!MESSAGE Log4j2 initialized with config file /home/sullen/Embedded-Progression/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-05-30 03:09:06.935
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-05-30 03:09:44.605
+!MESSAGE Indexed 'led-blink' (3 sources, 53 headers) in 0.45 sec: 1,954 declarations; 2,864 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-05-31 00:53:10.559
+!MESSAGE Indexed 'empty' (1 sources, 1 headers) in 0.099 sec: 5 declarations; 3 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-05-31 00:54:30.728
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-05-31 00:54:42.647
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+!SESSION 2026-06-30 21:49:16.255 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-06-30 21:49:19.281
+!MESSAGE Log4j2 initialized with config file /home/sullen/Embedded-Progression/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-06-30 21:49:23.056
+!MESSAGE Started RMI Server, listening on port 41337
