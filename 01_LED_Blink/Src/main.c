@@ -1,0 +1,14 @@
+#include "stm32f4xx.h"
+
+int main() {
+	RCC->AHB1ENR |= (1 << 0);
+	GPIOA->MODER &= ~(0x3 << 10);
+	GPIOA->MODER |= (0x1 << 10);
+
+	while(1) {
+		GPIOA->MODER |= (1 << 5);
+		for(int i = 0; i < 1000000; i++);
+		GPIOA->MODER &= ~(1 << 5);
+		for(int i = 0; i < 1000000; i++);
+	}
+}
